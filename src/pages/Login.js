@@ -7,7 +7,8 @@ import { useHistory } from 'react-router';
 export class Loading extends Component {
   componentDidMount() {
     setTimeout(() => {
-      document.location.href = '/login';
+      // document.location.href = '/login';
+      document.location.href = 'https://saymeta.github.io/market/login';
     }, 1000);
   }
 
