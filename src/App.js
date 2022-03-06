@@ -28,7 +28,7 @@ function App() {
   //   },1000)
   // }
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename='/market'>
       <div className='App'>
         <ScrollTop>
           <Switch>
