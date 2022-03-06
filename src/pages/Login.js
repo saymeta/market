@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router';
 
 export class Loading extends Component {
-  componentDidMount() {
-    setTimeout(() => {
-      // document.location.href = '/login';
-      document.location.href = 'https://saymeta.github.io/market/login';
-    }, 1000);
-  }
+  // componentDidMount() {
+  //   setTimeout(() => {
+  //     // document.location.href = '/login';
+  //     document.location.href = 'https://saymeta.github.io/market/login';
+  //   }, 1000);
+  // }
 
   render() {
     return (
       <div className='loadingPage AppIn'>
-        {/* <Link to='/login'> */}
-        <img src={require('./../images/logo.png').default} alt='logo'></img>
-        {/* </Link> */}
+        <Link to='/login'>
+          <img src={require('./../images/logo.png').default} alt='logo'></img>
+        </Link>
       </div>
     );
   }
