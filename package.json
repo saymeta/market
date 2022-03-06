@@ -1,8 +1,7 @@
 {
-  "homepage": "https://saymeta.github.io/market",
   "name": "cantal-market",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -43,5 +42,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "homepage": "https://saymeta.github.io/market"
 }
