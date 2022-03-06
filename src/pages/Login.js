@@ -7,7 +7,7 @@ import { useHistory } from 'react-router';
 export class Loading extends Component {
   componentDidMount() {
     setTimeout(() => {
-      document.location.href = '/market/login';
+      document.location.href = '/login';
     }, 1000);
   }
 
