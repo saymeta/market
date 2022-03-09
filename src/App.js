@@ -32,9 +32,9 @@ function App() {
       <div className='App'>
         <ScrollTop>
           <Switch>
-            <Route exact path='/'>
-              <Loading></Loading>
-            </Route>
+//             <Route exact path='/'>
+//               <Loading></Loading>
+//             </Route>
             <Route exact path='/login'>
               <Login></Login>
             </Route>
